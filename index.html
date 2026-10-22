@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Veltaris IT | SAP SuccessFactors Employee Central</title>
-<meta name="description" content="Consultoria especializada em SAP SuccessFactors Employee Central: implementação, arquitetura de integrações e suporte.">
+<title>Veltaris IT | SAP SuccessFactors EC & HCM</title>
+<meta name="description" content="Consultoria especializada em SAP SuccessFactors Employee Central e HCM: implementação, integrações, assessment e sustentação.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%230B2545'/%3E%3Cpath d='M10 11h5l5 13 5-13h5l-8 19h-4z' fill='%2300A6A6'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +24,7 @@ a{color:inherit}
 section{padding:96px 0}
 .eyebrow{font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-dark);margin-bottom:12px}
 .section-title{font-size:clamp(1.7rem,3vw,2.3rem);margin-bottom:16px}
-.lead{color:var(--muted);max-width:640px;font-size:1.05rem}
+.lead{color:var(--muted);max-width:660px;font-size:1.05rem}
 
 /* Header */
 header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
@@ -46,33 +46,33 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdro
 .hero::after{content:"";position:absolute;right:-120px;top:-120px;width:520px;height:520px;border:70px solid rgba(0,166,166,.12);border-radius:50%}
 .hero .wrap{position:relative;z-index:1}
 .hero .eyebrow{color:#5FD4D4}
-.hero h1{color:#fff;font-size:clamp(2.1rem,4.6vw,3.4rem);max-width:780px;margin-bottom:22px}
-.hero p{color:#C9D4E3;font-size:1.15rem;max-width:620px;margin-bottom:36px}
+.hero h1{color:#fff;font-size:clamp(2.1rem,4.6vw,3.4rem);max-width:800px;margin-bottom:22px}
+.hero p{color:#C9D4E3;font-size:1.15rem;max-width:640px;margin-bottom:36px}
 .btns{display:flex;gap:14px;flex-wrap:wrap}
 .btn{display:inline-block;padding:14px 26px;border-radius:8px;font-weight:600;text-decoration:none;font-size:.95rem;transition:.2s}
 .btn-primary{background:var(--teal);color:#fff}
 .btn-primary:hover{background:var(--teal-dark)}
 .btn-ghost{border:1px solid rgba(255,255,255,.35);color:#fff}
 .btn-ghost:hover{background:rgba(255,255,255,.08)}
-.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:72px;max-width:720px;border-top:1px solid rgba(255,255,255,.15);padding-top:32px}
-.hero-stats strong{display:block;font-family:"IBM Plex Sans",sans-serif;font-size:2rem;color:#fff}
-.hero-stats span{font-size:.88rem;color:#A9B8CC}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:72px;max-width:860px;border-top:1px solid rgba(255,255,255,.15);padding-top:32px}
+.pillars strong{display:block;font-family:"IBM Plex Sans",sans-serif;font-size:1.15rem;color:#fff;margin-bottom:4px}
+.pillars span{font-size:.9rem;color:#A9B8CC}
 
 /* Services */
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;margin-top:48px}
-.card{border:1px solid var(--line);border-radius:var(--radius);padding:32px 28px;background:#fff;transition:.2s}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:24px;margin-top:48px}
+.card{border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;background:#fff;transition:.2s}
 .card:hover{border-color:var(--teal);box-shadow:0 10px 30px rgba(11,37,69,.08);transform:translateY(-2px)}
 .icon{width:46px;height:46px;border-radius:9px;background:rgba(0,166,166,.1);display:grid;place-items:center;margin-bottom:20px}
 .icon svg{width:24px;height:24px;stroke:var(--teal-dark);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.card h3{font-size:1.15rem;margin-bottom:10px}
-.card p{color:var(--muted);font-size:.95rem}
+.card h3{font-size:1.1rem;margin-bottom:10px}
+.card p{color:var(--muted);font-size:.94rem}
 
 /* Engagement model */
 .alt{background:var(--bg-alt)}
 .model{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0;margin-top:48px;border:1px solid var(--line);border-radius:var(--radius);background:#fff;overflow:hidden}
 .model div{padding:30px 26px;border-right:1px solid var(--line)}
 .model div:last-child{border-right:0}
-.model .time{font-family:"IBM Plex Sans",sans-serif;font-weight:700;color:var(--teal-dark);font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px}
+.model .time{font-family:"IBM Plex Sans",sans-serif;font-weight:700;color:var(--teal-dark);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
 .model h3{font-size:1.05rem;margin-bottom:8px}
 .model p{color:var(--muted);font-size:.93rem}
 
@@ -89,7 +89,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdro
 .founder{background:var(--navy);color:#fff;border-radius:var(--radius);padding:36px 30px}
 .avatar{width:84px;height:84px;border-radius:50%;background:var(--teal);display:grid;place-items:center;font-family:"IBM Plex Sans",sans-serif;font-weight:700;font-size:1.8rem;margin-bottom:20px}
 .founder h3{color:#fff;font-size:1.25rem}
-.founder .role{color:#9FB3CC;font-size:.9rem;margin-bottom:22px}
+.founder .role{color:#9FB3CC;font-size:.95rem}
 .founder ul{list-style:none;font-size:.9rem;color:#D3DDEA}
 .founder li{padding:8px 0;border-top:1px solid rgba(255,255,255,.1)}
 .about-text p{margin-bottom:16px;color:var(--ink)}
@@ -125,7 +125,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   .menu li{width:100%}
   .menu a{display:block;padding:12px 0}
   .hero{padding:88px 0 80px}
-  .hero-stats{grid-template-columns:1fr;gap:18px}
+  .pillars{grid-template-columns:1fr;gap:18px}
   .values{grid-template-columns:1fr}
 }
 </style>
@@ -154,17 +154,17 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <main id="top">
 <section class="hero">
   <div class="wrap">
-    <div class="eyebrow" data-i18n="hero_eyebrow">SAP SuccessFactors Employee Central</div>
-    <h1 data-i18n="hero_title">Employee Central implementado com rigor, integrado de ponta a ponta.</h1>
-    <p data-i18n="hero_sub">A Veltaris IT é uma consultoria especializada em SAP SuccessFactors EC. Desenhamos, configuramos e sustentamos a base de dados de pessoas da sua empresa, com integrações confiáveis e cobertura além do horário comercial.</p>
+    <div class="eyebrow" data-i18n="hero_eyebrow">SAP SuccessFactors · Employee Central · HCM</div>
+    <h1 data-i18n="hero_title">Tecnologia de RH bem implementada, integrada e sustentada.</h1>
+    <p data-i18n="hero_sub">A Veltaris IT é uma consultoria especializada em SAP SuccessFactors, com foco em Employee Central e na suíte HCM. Apoiamos empresas em todo o ciclo, do diagnóstico e desenho da solução à implementação, integração e evolução contínua dos processos de RH.</p>
     <div class="btns">
       <a href="#contato" class="btn btn-primary" data-i18n="hero_cta">Fale com um especialista</a>
       <a href="#servicos" class="btn btn-ghost" data-i18n="hero_cta2">Conheça os serviços</a>
     </div>
-    <div class="hero-stats">
-      <div><strong>22</strong><span data-i18n="stat1">países em implementações multipaís</span></div>
-      <div><strong>EC</strong><span data-i18n="stat2">foco exclusivo em Employee Central</span></div>
-      <div><strong>24/7</strong><span data-i18n="stat3">modelo onsite + offshore sob demanda</span></div>
+    <div class="pillars">
+      <div><strong data-i18n="p1_t">Employee Central</strong><span data-i18n="p1_d">O núcleo de dados de pessoas, desenhado para escalar.</span></div>
+      <div><strong data-i18n="p2_t">Suíte HCM</strong><span data-i18n="p2_d">Onboarding, recrutamento, desempenho, remuneração e mais.</span></div>
+      <div><strong data-i18n="p3_t">Integrações</strong><span data-i18n="p3_d">SuccessFactors conectado a sistemas SAP e não SAP.</span></div>
     </div>
   </div>
 </section>
@@ -173,27 +173,52 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   <div class="wrap">
     <div class="eyebrow" data-i18n="svc_eyebrow">Serviços</div>
     <h2 class="section-title" data-i18n="svc_title">O que entregamos</h2>
-    <p class="lead" data-i18n="svc_lead">Do desenho da solução à sustentação, com a profundidade de quem trabalha só com Employee Central.</p>
+    <p class="lead" data-i18n="svc_lead">Do diagnóstico à sustentação, com profundidade técnica em SAP SuccessFactors e visão de negócio de RH.</p>
     <div class="grid">
       <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M8 11h6M11 8v6"/></svg></div>
+        <h3 data-i18n="s1_t">Assessment e diagnóstico</h3>
+        <p data-i18n="s1_d">Avaliação do ambiente SuccessFactors atual, identificação de gaps, riscos e oportunidades, com recomendações priorizadas.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16M8 15l4-4 3 3 5-6"/></svg></div>
+        <h3 data-i18n="s2_t">Roadmap de RH digital</h3>
+        <p data-i18n="s2_d">Definição de visão, fases e prioridades para a jornada de tecnologia de RH, alinhadas aos objetivos do negócio.</p>
+      </div>
+      <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
-        <h3 data-i18n="s1_t">Implementação e configuração de EC</h3>
-        <p data-i18n="s1_d">Desenho de estrutura organizacional, modelo de dados, regras de negócio, workflows, permissões (RBP) e localizações por país.</p>
+        <h3 data-i18n="s3_t">Implementação de Employee Central</h3>
+        <p data-i18n="s3_d">Estrutura organizacional, modelo de dados, regras de negócio, workflows, permissões (RBP) e localizações por país.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
+        <h3 data-i18n="s4_t">Módulos da suíte HCM</h3>
+        <p data-i18n="s4_d">Onboarding, Recruiting, Performance &amp; Goals, Compensation e Succession, configurados de forma integrada ao EC.</p>
       </div>
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="19" cy="19" r="2"/><path d="M7 12h5m0 0l5-6m-5 6l5 6"/></svg></div>
-        <h3 data-i18n="s2_t">Arquitetura de integrações</h3>
-        <p data-i18n="s2_d">Integrações com SAP Integration Suite (CPI), onboarding e cenários cross-module, com desenho de fluxos, monitoramento e tratamento de erros.</p>
+        <h3 data-i18n="s5_t">Arquitetura de integrações</h3>
+        <p data-i18n="s5_d">SAP Integration Suite (CPI), APIs OData e Integration Center, conectando SuccessFactors a folha, identidade e outros sistemas.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+        <h3 data-i18n="s6_t">Migração e carga de dados</h3>
+        <p data-i18n="s6_d">Mapeamento, limpeza, validação e carga de dados de sistemas legados, com reconciliação e controle de qualidade.</p>
       </div>
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
-        <h3 data-i18n="s3_t">Sustentação e melhorias</h3>
-        <p data-i18n="s3_d">Suporte contínuo ao ambiente, análise de releases semestrais, correções e evolução das configurações existentes.</p>
+        <h3 data-i18n="s7_t">Sustentação e AMS</h3>
+        <p data-i18n="s7_d">Suporte contínuo, correções, pequenas melhorias e análise dos releases semestrais do SuccessFactors.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M2 7l10-4 10 4-10 4z"/><path d="M6 9v5c0 1.7 2.7 3 6 3s6-1.3 6-3V9"/></svg></div>
+        <h3 data-i18n="s8_t">Capacitação e documentação</h3>
+        <p data-i18n="s8_d">Treinamento de usuários-chave e times de TI, além de documentação funcional e técnica da solução.</p>
       </div>
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg></div>
-        <h3 data-i18n="s4_t">Atuação presencial</h3>
-        <p data-i18n="s4_d">Workshops, levantamentos e marcos críticos conduzidos nas instalações do cliente, quando o projeto pede presença.</p>
+        <h3 data-i18n="s9_t">Atuação presencial</h3>
+        <p data-i18n="s9_d">Assessments, workshops, levantamentos e marcos críticos conduzidos nas instalações do cliente, quando o projeto pede presença.</p>
       </div>
     </div>
   </div>
@@ -201,14 +226,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 <section class="alt">
   <div class="wrap">
-    <div class="eyebrow" data-i18n="mdl_eyebrow">Modelo de atendimento</div>
-    <h2 class="section-title" data-i18n="mdl_title">Cobertura que acompanha o seu projeto</h2>
-    <p class="lead" data-i18n="mdl_lead">Combinamos disponibilidade em horário comercial com janelas estendidas para cutovers, cargas e fusos internacionais.</p>
+    <div class="eyebrow" data-i18n="mdl_eyebrow">Formatos de atuação</div>
+    <h2 class="section-title" data-i18n="mdl_title">Um modelo que se adapta ao seu projeto</h2>
+    <p class="lead" data-i18n="mdl_lead">Cada cliente tem um momento diferente. Definimos juntos o formato, a cobertura e o ritmo mais adequados.</p>
     <div class="model">
-      <div><div class="time" data-i18n="m1_time">8h – 17h</div><h3 data-i18n="m1_t">Horário comercial</h3><p data-i18n="m1_d">Reuniões pontuais, alinhamentos com o time do cliente e decisões de desenho.</p></div>
-      <div><div class="time" data-i18n="m2_time">Após 17h</div><h3 data-i18n="m2_t">Offshore</h3><p data-i18n="m2_d">Execução de configurações, testes e integrações fora do horário comercial.</p></div>
-      <div><div class="time" data-i18n="m3_time">Fins de semana</div><h3 data-i18n="m3_t">Sob demanda</h3><p data-i18n="m3_d">Go-lives, cutovers e janelas de manutenção, mediante acordo prévio.</p></div>
-      <div><div class="time" data-i18n="m4_time">Onsite</div><h3 data-i18n="m4_t">Visitas presenciais</h3><p data-i18n="m4_d">Presença no cliente para workshops e etapas críticas do projeto.</p></div>
+      <div><div class="time" data-i18n="m1_time">Escopo fechado</div><h3 data-i18n="m1_t">Projetos</h3><p data-i18n="m1_d">Implementações, rollouts e assessments com escopo, cronograma e entregáveis definidos.</p></div>
+      <div><div class="time" data-i18n="m2_time">Sob demanda</div><h3 data-i18n="m2_t">Alocação por horas</h3><p data-i18n="m2_d">Especialista dedicado para reforçar o seu time em frentes específicas.</p></div>
+      <div><div class="time" data-i18n="m3_time">Contínuo</div><h3 data-i18n="m3_t">Sustentação</h3><p data-i18n="m3_d">Acompanhamento recorrente do ambiente, com níveis de serviço acordados.</p></div>
+      <div><div class="time" data-i18n="m4_time">Remoto · Híbrido · Presencial</div><h3 data-i18n="m4_t">Cobertura flexível</h3><p data-i18n="m4_d">Atendimento remoto ou no cliente, com janelas estendidas para go-lives e cutovers quando necessário.</p></div>
     </div>
   </div>
 </section>
@@ -218,12 +243,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <div>
       <div class="eyebrow" data-i18n="exp_eyebrow">Expertise</div>
       <h2 class="section-title" data-i18n="exp_title">Experiência em projetos de grande escala</h2>
-      <p class="lead" data-i18n="exp_lead">Atuação em implementações SAP de grande porte, incluindo programas multipaís nas Américas com até 22 países em escopo, onde padronização global e requisitos locais precisam conviver.</p>
+      <p class="lead" data-i18n="exp_lead">Atuação em implementações SAP de grande porte e programas multipaís, onde padronização global e requisitos locais precisam conviver.</p>
     </div>
     <ul class="checklist">
       <li><strong data-i18n="e1_t">Programas multipaís</strong><span data-i18n="e1_d">Templates globais com localizações por país, legislação e idiomas.</span></li>
-      <li><strong data-i18n="e2_t">Integração ponta a ponta</strong><span data-i18n="e2_d">EC como fonte de verdade para sistemas de folha, identidade e provisionamento.</span></li>
-      <li><strong data-i18n="e3_t">Onboarding</strong><span data-i18n="e3_d">Jornadas de admissão integradas ao Employee Central e a sistemas de terceiros.</span></li>
+      <li><strong data-i18n="e2_t">Integração ponta a ponta</strong><span data-i18n="e2_d">SuccessFactors como fonte de verdade para folha, identidade e provisionamento.</span></li>
+      <li><strong data-i18n="e3_t">Jornada do colaborador</strong><span data-i18n="e3_d">Processos de admissão a desligamento integrados ao Employee Central.</span></li>
       <li><strong data-i18n="e4_t">Governança e qualidade</strong><span data-i18n="e4_d">Documentação de desenho, gestão de mudanças e testes estruturados.</span></li>
     </ul>
   </div>
@@ -234,24 +259,17 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <aside class="founder">
       <div class="avatar">DN</div>
       <h3>Douglas Novaes</h3>
-      <div class="role" data-i18n="f_role">Fundador e consultor principal</div>
-      <ul>
-        <li data-i18n="f1">Especialista em SAP SuccessFactors EC</li>
-        <li data-i18n="f2">Mestrado</li>
-        <li data-i18n="f3">Bacharel em Ciência da Computação</li>
-        <li data-i18n="f4">Pós-graduação</li>
-        <li data-i18n="f5">Dois artigos publicados</li>
-      </ul>
+      <div class="role" data-i18n="f_role">Fundador e especialista em Employee Central</div>
     </aside>
     <div class="about-text">
       <div class="eyebrow" data-i18n="ab_eyebrow">Sobre</div>
       <h2 class="section-title" data-i18n="ab_title">Especialização como princípio</h2>
-      <p data-i18n="ab_p1">A Veltaris IT Consultoria em TI nasceu com um foco deliberado: SAP SuccessFactors Employee Central. Em vez de cobrir todos os módulos superficialmente, concentramos nossa atuação no núcleo de dados de pessoas, onde decisões de desenho impactam toda a organização.</p>
-      <p data-i18n="ab_p2">Fundada por Douglas Novaes, a empresa reúne experiência prática em implementações multipaís e grandes projetos SAP com formação acadêmica sólida em computação, em um modelo de atendimento flexível que se adapta ao ritmo de cada projeto.</p>
+      <p data-i18n="ab_p1">A Veltaris IT Consultoria em TI nasceu com um foco deliberado: SAP SuccessFactors. Tendo o Employee Central como base, atuamos em toda a suíte HCM, onde decisões de desenho impactam diretamente a experiência dos colaboradores e a gestão de pessoas.</p>
+      <p data-i18n="ab_p2">Fundada por Douglas Novaes, a empresa reúne experiência prática em implementações multipaís e grandes projetos SAP com formação acadêmica sólida em computação, em um modelo de atuação flexível que se adapta ao ritmo de cada cliente.</p>
       <div class="values">
-        <div><strong data-i18n="v1_t">Profundidade</strong><span data-i18n="v1_d">Foco exclusivo em EC e suas integrações.</span></div>
+        <div><strong data-i18n="v1_t">Profundidade</strong><span data-i18n="v1_d">Especialização real em SuccessFactors.</span></div>
         <div><strong data-i18n="v2_t">Confiabilidade</strong><span data-i18n="v2_d">Entregas documentadas e previsíveis.</span></div>
-        <div><strong data-i18n="v3_t">Disponibilidade</strong><span data-i18n="v3_d">Cobertura além do horário comercial.</span></div>
+        <div><strong data-i18n="v3_t">Proximidade</strong><span data-i18n="v3_d">Atendimento direto com quem executa.</span></div>
       </div>
     </div>
   </div>
@@ -264,7 +282,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <p class="lead" data-i18n="ct_lead">Conte o contexto do seu ambiente SuccessFactors e retornaremos em até um dia útil.</p>
     <div class="contact-grid">
       <a class="contact-item" href="mailto:contato@veltarisit.com.br"><small>E-mail</small><b>contato@veltarisit.com.br</b></a>
-      <a class="contact-item" href="www.linkedin.com/in/douglasrnovaes" target="_blank" rel="noopener"><small>LinkedIn</small><b>Douglas Novaes</b></a>
+      <a class="contact-item" href="https://www.linkedin.com/in/douglasrnovaes" target="_blank" rel="noopener"><small>LinkedIn</small><b>Douglas Novaes</b></a>
       <div class="contact-item"><small data-i18n="ct_loc_l">Endereço</small><b>Pinheiros, São Paulo/SP</b></div>
     </div>
   </div>
@@ -281,37 +299,43 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <script>
 const EN = {
   nav_services:"Services", nav_expertise:"Expertise", nav_about:"About", nav_contact:"Contact",
-  hero_eyebrow:"SAP SuccessFactors Employee Central",
-  hero_title:"Employee Central implemented with rigor, integrated end to end.",
-  hero_sub:"Veltaris IT is a consultancy specialized in SAP SuccessFactors EC. We design, configure and support your company's core people data, with reliable integrations and coverage beyond business hours.",
+  hero_eyebrow:"SAP SuccessFactors · Employee Central · HCM",
+  hero_title:"HR technology, well implemented, integrated and supported.",
+  hero_sub:"Veltaris IT is a consultancy specialized in SAP SuccessFactors, focused on Employee Central and the HCM suite. We support companies across the full cycle, from assessment and solution design to implementation, integration and continuous improvement of HR processes.",
   hero_cta:"Talk to a specialist", hero_cta2:"Explore our services",
-  stat1:"countries in multi-country rollouts", stat2:"exclusive focus on Employee Central", stat3:"onsite + offshore model on demand",
+  p1_t:"Employee Central", p1_d:"The core of people data, designed to scale.",
+  p2_t:"HCM suite", p2_d:"Onboarding, recruiting, performance, compensation and more.",
+  p3_t:"Integrations", p3_d:"SuccessFactors connected to SAP and non-SAP systems.",
   svc_eyebrow:"Services", svc_title:"What we deliver",
-  svc_lead:"From solution design to ongoing support, with the depth of a team that works exclusively with Employee Central.",
-  s1_t:"EC implementation and configuration", s1_d:"Organizational structure design, data model, business rules, workflows, role-based permissions (RBP) and country localizations.",
-  s2_t:"Integration architecture", s2_d:"Integrations with SAP Integration Suite (CPI), onboarding and cross-module scenarios, including flow design, monitoring and error handling.",
-  s3_t:"Support and enhancements", s3_d:"Ongoing environment support, semi-annual release analysis, fixes and evolution of existing configurations.",
-  s4_t:"Onsite engagement", s4_d:"Workshops, requirements gathering and critical milestones delivered at the client's premises whenever the project calls for it.",
-  mdl_eyebrow:"Engagement model", mdl_title:"Coverage that follows your project",
-  mdl_lead:"We combine business-hours availability with extended windows for cutovers, data loads and international time zones.",
-  m1_time:"8 am – 5 pm", m1_t:"Business hours", m1_d:"Ad hoc meetings, alignment with the client team and design decisions.",
-  m2_time:"After 5 pm", m2_t:"Offshore", m2_d:"Configuration, testing and integration work outside business hours.",
-  m3_time:"Weekends", m3_t:"On demand", m3_d:"Go-lives, cutovers and maintenance windows, by prior agreement.",
-  m4_time:"Onsite", m4_t:"Client visits", m4_d:"On-site presence for workshops and critical project phases.",
+  svc_lead:"From assessment to ongoing support, with deep technical expertise in SAP SuccessFactors and a solid understanding of HR.",
+  s1_t:"Assessment and diagnosis", s1_d:"Review of your current SuccessFactors landscape, identifying gaps, risks and opportunities, with prioritized recommendations.",
+  s2_t:"Digital HR roadmap", s2_d:"Vision, phases and priorities for your HR technology journey, aligned with business goals.",
+  s3_t:"Employee Central implementation", s3_d:"Organizational structure, data model, business rules, workflows, role-based permissions (RBP) and country localizations.",
+  s4_t:"HCM suite modules", s4_d:"Onboarding, Recruiting, Performance & Goals, Compensation and Succession, configured in an integrated way with EC.",
+  s5_t:"Integration architecture", s5_d:"SAP Integration Suite (CPI), OData APIs and Integration Center, connecting SuccessFactors to payroll, identity and other systems.",
+  s6_t:"Data migration and loads", s6_d:"Mapping, cleansing, validation and loading of legacy data, with reconciliation and quality control.",
+  s7_t:"Support and AMS", s7_d:"Ongoing support, fixes, small enhancements and analysis of SuccessFactors semi-annual releases.",
+  s8_t:"Training and documentation", s8_d:"Training for key users and IT teams, plus functional and technical documentation of the solution.",
+  s9_t:"Onsite engagement", s9_d:"Assessments, workshops, requirements gathering and critical milestones delivered at the client's premises whenever the project calls for it.",
+  mdl_eyebrow:"Engagement models", mdl_title:"A model that adapts to your project",
+  mdl_lead:"Every client is at a different stage. Together we define the format, coverage and pace that fit best.",
+  m1_time:"Fixed scope", m1_t:"Projects", m1_d:"Implementations, rollouts and assessments with defined scope, timeline and deliverables.",
+  m2_time:"On demand", m2_t:"Time and materials", m2_d:"A dedicated specialist to reinforce your team on specific workstreams.",
+  m3_time:"Ongoing", m3_t:"Support", m3_d:"Recurring support of your landscape, with agreed service levels.",
+  m4_time:"Remote · Hybrid · Onsite", m4_t:"Flexible coverage", m4_d:"Remote or on-site delivery, with extended windows for go-lives and cutovers when needed.",
   exp_eyebrow:"Expertise", exp_title:"Experience in large-scale programs",
-  exp_lead:"Hands-on work in large SAP implementations, including multi-country programs across the Americas with up to 22 countries in scope, where global standards and local requirements must coexist.",
+  exp_lead:"Hands-on work in large SAP implementations and multi-country programs, where global standards and local requirements must coexist.",
   e1_t:"Multi-country programs", e1_d:"Global templates with country-specific localizations, legislation and languages.",
-  e2_t:"End-to-end integration", e2_d:"EC as the source of truth for payroll, identity and provisioning systems.",
-  e3_t:"Onboarding", e3_d:"Hiring journeys integrated with Employee Central and third-party systems.",
+  e2_t:"End-to-end integration", e2_d:"SuccessFactors as the source of truth for payroll, identity and provisioning.",
+  e3_t:"Employee journey", e3_d:"Hire-to-retire processes integrated with Employee Central.",
   e4_t:"Governance and quality", e4_d:"Design documentation, change management and structured testing.",
-  f_role:"Founder and principal consultant",
-  f1:"SAP SuccessFactors EC specialist", f2:"Master's degree", f3:"B.Sc. in Computer Science", f4:"Postgraduate specialization", f5:"Two published journal articles",
+  f_role:"Founder and Employee Central specialist",
   ab_eyebrow:"About", ab_title:"Specialization as a principle",
-  ab_p1:"Veltaris IT was founded with a deliberate focus: SAP SuccessFactors Employee Central. Rather than covering every module superficially, we concentrate on the core of people data, where design decisions affect the entire organization.",
-  ab_p2:"Founded by Douglas Novaes, the company brings together hands-on experience in multi-country implementations and large SAP programs with a solid academic background in computing, in a flexible engagement model that adapts to the pace of each project.",
-  v1_t:"Depth", v1_d:"Exclusive focus on EC and its integrations.",
+  ab_p1:"Veltaris IT was founded with a deliberate focus: SAP SuccessFactors. With Employee Central as the foundation, we work across the HCM suite, where design decisions directly shape the employee experience and people management.",
+  ab_p2:"Founded by Douglas Novaes, the company brings together hands-on experience in multi-country implementations and large SAP programs with a solid academic background in computing, in a flexible engagement model that adapts to each client's pace.",
+  v1_t:"Depth", v1_d:"Genuine specialization in SuccessFactors.",
   v2_t:"Reliability", v2_d:"Documented, predictable deliveries.",
-  v3_t:"Availability", v3_d:"Coverage beyond business hours.",
+  v3_t:"Proximity", v3_d:"Direct access to the people doing the work.",
   ct_eyebrow:"Contact", ct_title:"Let's talk about your project",
   ct_lead:"Tell us about your SuccessFactors landscape and we will get back to you within one business day.",
   ct_loc_l:"Address", ft_note:"SAP and SuccessFactors are registered trademarks of SAP SE."
